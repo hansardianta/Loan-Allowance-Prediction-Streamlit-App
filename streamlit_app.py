@@ -8,7 +8,7 @@ encoders = joblib.load("label_encoding.pkl")
 scaler = joblib.load("scaler.pkl")
 
 def main():
-    st.title("Loan Acceptance Prediction App 🏦")
+    st.title("Loan Acceptance Prediction Model App")
 
     # Form input user
     def user_input_features():
