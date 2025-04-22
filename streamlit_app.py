@@ -15,7 +15,7 @@ def main():
         person_age = st.slider("Usia", min_value=15, max_value=100, value=15)
         person_gender = st.selectbox("Jenis Kelamin", ["Male", "Female"])
         person_education = st.selectbox("Tingkat Pendidikan Tertinggi", ["High School", "Associate", "Bachelor", "Master", "Doctorate"])
-        person_income = st.number_input("Pendapatan (dalam juta)", min_value=1000, max_value=6000000, value=1000, step=1)
+        person_income = st.number_input("Pendapatan (dalam US$)", min_value=1000, max_value=6000000, value=1000, step=1)
         person_emp_exp = st.slider("Lama Bekerja (tahun)", min_value=0, max_value=100, value=0)
         person_home_ownership = st.selectbox("Status Tempat Tinggal", ["RENT", "OWN", "MORTGAGE", "OTHER"])
         loan_amnt = st.slider("Jumlah Pinjaman", min_value=0, max_value=35000, value=0, step=500)
