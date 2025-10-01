@@ -28,8 +28,8 @@ Model yang digunakan adalah **XGBoost Classifier** dengan preprocessing (encodin
 1. **Clone repository**
 
    ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
+   git clone https://github.com/hansardianta/Loan-Allowance-Prediction-Streamlit-App.git
+   cd Loan-Allowance-Prediction-Streamlit-App
    ```
 
 2. **Buat virtual environment (opsional)**
